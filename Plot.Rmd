@@ -1,0 +1,37 @@
+---
+output: html_document
+---
+
+
+## Time of Day vs Speed
+
+**Produces:**  
+
+- A plot with on the x-axis the time of day in "HH:MM" format and on the y-axis the average speed of the traffic in kilometres per hour.
+
+**Parameters:**
+
+- Date: The day to plot on x-axis. Ranges from 2011-01-01 to 2011-06-30.  
+- Location: The location of the *hectometerpaal*. A *hectometerpaal* is the Dutch equivalent of the mile marker with a seperation of 100 meters. I.e. between *hectometerpaal* 75 and 75.1 there is 100 meters of highway.
+
+## Location vs Speed
+
+**Produces:**  
+
+- A plot with on the x-axis the location based on *hectometerpaal* and on the y-axis the average speed of the traffic.
+
+**Parameters:**
+
+- Date: The day to plot on x-axis. Ranges from 2011-01-01 to 2011-06-30.  
+- Minutes: This results in a clock time for which to plot the data. Note that a day has 1440 minutes. The time will be displayed above the plot.
+
+
+## Heatmap
+
+**Produces:** 
+
+- A heatmap with on the x-axis the location based on *hectometerpaal* and on the y-axis the number of minutes past midnight. The speed is colour-coded.
+
+**Parameters:** 
+
+- Date: The day to plot on x-axis. Ranges from 2011-01-01 to 2011-06-30.

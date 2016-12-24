@@ -1,0 +1,19 @@
+---
+output: html_document
+---
+
+## Forecast
+
+**Details**
+
+- Gives a prediction for the average speed of the traffic per time of day at a given *hectometerpaal*. It treats the data as a time series and uses a seasonal-trend decomposition procedure (stl) for forecasting. Only measurements in the previous week are used in the forecasting algorithm.
+
+**Produces:** 
+
+-  A plot with on the x-axis the time of day in "HH:MM" format and on the y-axis the average speed of the traffic in kilometres per hour.
+
+**Parameters:**
+
+- Date: The day to plot on x-axis. Ranges from 2011-01-08 to 2011-06-30. 
+- Location: The location of the *hectometerpaal*. A *hectometerpaal* is the Dutch equivalent of the mile marker with a seperation of 100 meters. I.e. between *hectometerpaal* 75 and 75.1 there is 100 meter highway.
+- Observed Speed: Overlay the plot with actual average speed of the traffic.

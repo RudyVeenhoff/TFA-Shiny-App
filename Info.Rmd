@@ -1,0 +1,15 @@
+---
+output: html_document
+---
+
+
+## Introduction to the A13 Traffic Forecasting App v.0.5.
+- The main functionality of this app is to gain insight into the A13 Traffic Database and to predict the average speed of traffic on the A13.
+- A13 is an important motorway connecting The Hague and Rotterdam.
+- In 2011 TNO conducted a research on the traffic on this highway.
+- Numbers of cars per minute (flow) as well as average speed were measured using "loops" placed inside the road.
+- We will look at the average speed of the traffic along the highway at a given day.
+- The data shown is from the traffic coming from The Hague and going to Rotterdam.
+- There were 143 points of measurement along this side of the A13.
+- This application only considers the measurements made in the first of half of 2011 due to data upload restrictions.
+
